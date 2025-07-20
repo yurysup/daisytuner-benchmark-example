@@ -19,3 +19,8 @@ steps:
       command: python3 matmul.py
       measurements: 1
       profiler: py-spy
+      metrics:
+        - flops_dp
+        - memory_bandwidth
+        - runtime
+        - operational_intensity_sp
